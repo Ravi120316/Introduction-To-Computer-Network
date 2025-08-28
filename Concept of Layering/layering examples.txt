@@ -1,0 +1,9 @@
+Concept of Layering:
+- Network divided into layers, each layer has specific task
+- Makes design, troubleshooting and improvement easier
+
+Layering Example (Post Office):
+1. Application Layer: Writing the letter
+2. Transport Layer: Packing the letter
+3. Network Layer: Routing to correct city/state
+4. Data Link / Physical Layer: Actual delivery via transport
