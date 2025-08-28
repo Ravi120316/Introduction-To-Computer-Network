@@ -1,0 +1,6 @@
+Advantages of Layering Mechanism:
+1. Simplifies Design: Each layer has specific task, easy to design
+2. Easy Troubleshooting: Problems in one layer can be fixed independently
+3. Interoperability: Devices from different vendors can communicate
+4. Flexibility: Upgrade one layer without affecting others
+5. Standardization: Layers define standards, ensuring global compatibility
