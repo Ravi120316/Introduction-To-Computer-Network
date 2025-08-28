@@ -1,0 +1,9 @@
+Need of Shared Resources:
+
+1. Cost Efficiency: Single resource can be used by multiple users
+2. Time Saving: Shared data and applications speed up work
+3. Easy Maintenance: Centralized resources are easier to maintain
+4. Collaboration: Improves team work and communication
+5. Better Utilization: Idle resources can be efficiently used
+
+Examples: Shared Printer, Shared Database, Cloud Storage
