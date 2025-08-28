@@ -1,0 +1,55 @@
+# The OSI Model (Open Systems Interconnection)
+
+## Definition:
+The OSI Model is a conceptual framework that standardizes how data is transmitted between two devices over a network.  
+It divides the communication process into 7 different layers, each with a specific function.
+
+## Purpose of OSI Model:
+- Helps understand and design network communication.
+- Provides standardization so devices from different vendors can work together.
+- Makes troubleshooting easier by isolating problems in specific layers.
+
+---
+
+## The 7 Layers of OSI Model (Top → Bottom):
+
+1. **Application Layer**
+   - Provides services directly to end users.
+   - Examples: HTTP (web browsing), SMTP (email), FTP (file transfer).
+
+2. **Presentation Layer**
+   - Translates data into a format usable by the application.
+   - Handles data encryption, compression, translation.
+   - Example: SSL/TLS for secure communication.
+
+3. **Session Layer**
+   - Manages sessions between applications.
+   - Responsible for starting, maintaining, and ending communication.
+   - Example: Managing a video call or login session.
+
+4. **Transport Layer**
+   - Ensures reliable delivery of data with error detection and flow control.
+   - Provides segmentation and reassembly of data.
+   - Protocols: TCP (reliable), UDP (faster but unreliable).
+
+5. **Network Layer**
+   - Handles logical addressing and routing of packets.
+   - Responsible for determining the best path for data delivery.
+   - Examples: IP (IPv4/IPv6), Routers.
+
+6. **Data Link Layer**
+   - Provides physical addressing (MAC addresses).
+   - Ensures error detection and correction at the link level.
+   - Examples: Ethernet, Switches.
+
+7. **Physical Layer**
+   - Transmits raw bits (0s and 1s) over the physical medium.
+   - Deals with hardware like cables, hubs, radio signals.
+   - Examples: Fiber optics, Coaxial cable, Wi-Fi signals.
+
+---
+
+## Key Points to Remember:
+- OSI Model = **Theoretical / Reference model**
+- Used for **learning, teaching, and troubleshooting**
+- Real-world implementation is mostly based on the **TCP/IP model**
