@@ -1,0 +1,54 @@
+# TCP/IP and OSI Models
+
+## OSI Model (Open Systems Interconnection)
+
+Definition:
+A reference model with 7 layers that defines how data is transmitted from one computer to another over a network.
+
+Purpose:
+- Standardization of communication
+- Allows devices from different vendors to communicate
+- Helps in troubleshooting and understanding network flow
+
+### 7 Layers of OSI Model (Top → Bottom):
+1. Application Layer – Provides services to end users (e.g., HTTP, SMTP, FTP)
+2. Presentation Layer – Translates, encrypts, compresses data (e.g., SSL/TLS)
+3. Session Layer – Manages sessions (e.g., video call session)
+4. Transport Layer – Ensures reliable delivery, error checking, sequencing (TCP/UDP)
+5. Network Layer – Handles logical addressing & routing (IP, Routers)
+6. Data Link Layer – Deals with MAC addresses & error detection (Ethernet, Switches)
+7. Physical Layer – Transmits raw bits via cables/wireless (Cables, Wi-Fi, Hubs)
+
+---
+
+## TCP/IP Model (Transmission Control Protocol / Internet Protocol)
+
+Definition:
+A practical model used for real-world Internet communication.
+
+Developed by:
+U.S. Department of Defense (DoD)
+
+### 4 Layers of TCP/IP Model:
+1. Application Layer – Combines OSI’s Application + Presentation + Session (e.g., HTTP, DNS, FTP)
+2. Transport Layer – Provides end-to-end communication (TCP for reliability, UDP for speed)
+3. Internet Layer – Handles addressing & routing (IP, ICMP)
+4. Network Access Layer – Combines Data Link + Physical layers (Ethernet, Wi-Fi)
+
+---
+
+## Difference Between OSI and TCP/IP Models
+
+| Feature          | OSI Model (7 Layers)              | TCP/IP Model (4 Layers)         |
+|------------------|-----------------------------------|---------------------------------|
+| Developed By     | ISO (International Standards Org.)| DoD (Department of Defense)     |
+| Type             | Theoretical (Reference model)     | Practical (Implemented model)   |
+| Layers           | 7                                 | 4                               |
+| Flexibility      | More detailed, strict             | Flexible, widely used           |
+| Use Case         | Used for teaching & understanding | Used in real-world networking   |
+
+---
+
+Quick Tip:
+- OSI Model = Conceptual (7 layers)
+- TCP/IP Model = Practical (4 layers)
