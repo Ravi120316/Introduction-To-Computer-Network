@@ -1,0 +1,43 @@
+# The TCP/IP Model (5-Layer Version)
+
+## Definition:
+The TCP/IP model is the most widely used model for real-world computer networking and the Internet.  
+It explains how data is transmitted from one device to another using a layered approach.
+
+---
+
+## The 5 Layers of TCP/IP Model (Top → Bottom):
+
+1. **Application Layer**
+   - Provides services directly to the user.
+   - Combines OSI’s Application, Presentation, and Session layers.
+   - Examples: HTTP (web browsing), SMTP (email), FTP (file transfer), DNS.
+
+2. **Transport Layer**
+   - Provides end-to-end communication between processes.
+   - Ensures proper delivery of data (reliable or fast depending on protocol).
+   - Protocols:
+     - **TCP** → Reliable, connection-oriented (e.g., file download).
+     - **UDP** → Fast, connectionless (e.g., video streaming, gaming).
+
+3. **Internet Layer**
+   - Handles logical addressing and routing of packets.
+   - Responsible for finding the best path to the destination.
+   - Protocols: IP (IPv4/IPv6), ICMP (ping), ARP, RARP.
+
+4. **Data Link Layer**
+   - Ensures error-free transfer of data frames between nodes.
+   - Works with physical (MAC) addressing.
+   - Examples: Ethernet, Wi-Fi, Switches.
+
+5. **Physical Layer**
+   - Concerned with actual transmission of raw bits (0s and 1s).
+   - Defines hardware like cables, connectors, signals, radio waves.
+   - Examples: Fiber optics, Coaxial cable, NICs, Hubs.
+
+---
+
+## Key Points:
+- TCP/IP can be shown as **4 layers** (merged version) or **5 layers** (detailed version).
+- Real-world Internet protocols are based on TCP/IP.
+- Important for cyber security: Attacks can happen at any of these layers (e.g., Physical jamming, Data link spoofing, Internet layer DDoS).
