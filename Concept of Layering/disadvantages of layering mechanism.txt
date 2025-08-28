@@ -1,0 +1,6 @@
+Disadvantages of Layering:
+1. Duplication of Work: Some functions (e.g., error handling) repeated in layers
+2. Inefficiency/Overhead: Each layer adds headers, increasing data size
+3. Dependency: Higher layers depend on lower layers, failure affects all
+4. Complexity: Implementation and maintenance of multiple layers is complex
+5. Not Always Optimal: Strict layering rules may reduce efficiency in real systems
