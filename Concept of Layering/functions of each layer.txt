@@ -1,0 +1,38 @@
+# Functions of Each OSI Layer
+
+## 1. Physical Layer
+- Deals with the physical transmission of raw bits (0s and 1s).
+- Defines cables, switches, signals, and hardware devices.
+- Ensures how data is transmitted over physical media (wired or wireless).
+
+## 2. Data Link Layer
+- Provides error detection and correction for directly connected nodes.
+- Uses **MAC addresses** for device-to-device communication.
+- Responsible for framing and flow control.
+- Devices: Switches, Bridges.
+
+## 3. Network Layer
+- Responsible for **logical addressing and routing**.
+- Uses **IP addresses** to deliver packets from source to destination across networks.
+- Ensures correct path selection.
+- Device: Router.
+
+## 4. Transport Layer
+- Ensures **reliable and error-free end-to-end delivery** of data.
+- Handles segmentation, sequencing, and flow control.
+- Protocols: TCP (reliable), UDP (fast but less reliable).
+
+## 5. Session Layer
+- Establishes, manages, and terminates sessions between applications.
+- Provides synchronization and dialog control.
+
+## 6. Presentation Layer
+- Translates data between application and network formats.
+- Handles **encryption, decryption, compression, and encoding**.
+- Example: Data encryption in secure transactions (SSL/TLS).
+
+## 7. Application Layer
+- Closest to the user; provides network services to applications.
+- Protocols: HTTP, FTP, SMTP, DNS, etc.
+- Examples: Web browsing, email, file transfer.
+
