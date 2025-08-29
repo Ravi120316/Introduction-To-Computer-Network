@@ -1,0 +1,35 @@
+# Connection-Oriented Network: X.25 and Frame Relay
+
+## Connection-Oriented Concept:
+- A dedicated logical path is established before data transfer.
+- All packets follow the same path.
+- Example: Telephone call analogy.
+
+---
+
+## X.25:
+- Early packet switching protocol (1970s).
+- Provides error correction and flow control at each node.
+- Very reliable but slow (high overhead).
+- Used in banking networks, ATMs, early WAN systems.
+
+---
+
+## Frame Relay:
+- Successor to X.25 (1990s).
+- Error checking only at entry/exit points (not at each node).
+- Faster, more efficient, lower cost.
+- Less reliable compared to X.25.
+- Used to connect LANs over WAN (corporate networks, ISPs).
+
+---
+
+## Key Difference:
+
+| Feature              | X.25                          | Frame Relay                   |
+|----------------------|-------------------------------|-------------------------------|
+| Era                  | 1970s                         | 1990s                         |
+| Speed                | Slow                          | Fast                          |
+| Reliability          | Very high (error checking at each node) | Moderate (checking only at edges) |
+| Overhead             | High                          | Low                           |
+| Usage                | Banking, ATMs                 | Corporate WAN, ISP backbone   |
