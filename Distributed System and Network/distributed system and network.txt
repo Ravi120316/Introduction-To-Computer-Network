@@ -1,0 +1,20 @@
+# Distributed System vs Network
+
+## Network:
+- A collection of computers and devices connected together.
+- Purpose: To share data and resources (e.g., printer, files).
+- Focuses only on connectivity and communication.
+- Example: LAN in an office.
+
+## Distributed System:
+- Built on top of a network.
+- Appears as a **single unified system** to the user, even though multiple computers work together.
+- Purpose: Resource sharing, fault tolerance, scalability, parallel processing.
+- Users don’t need to know how many computers are involved.
+- Example: Google Search, Online Banking Systems, Netflix servers.
+
+---
+
+## Key Difference:
+- **Network** = Just connectivity + data sharing.
+- **Distributed System** = Network + unified computing + resource management.
