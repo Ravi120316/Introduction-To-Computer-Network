@@ -1,0 +1,19 @@
+# Top-Down vs Bottom-Up Approaches to Study Layers
+
+## 1. Top-Down Approach:
+- Starts from the **Application Layer** (user perspective) and moves downward to the Physical Layer.
+- Focus is on how applications use the network.
+- Helps understand **services, protocols, and user experience**.
+- Example: Studying how a web browser sends an HTTP request down through TCP/IP layers.
+
+## 2. Bottom-Up Approach:
+- Starts from the **Physical Layer** (hardware perspective) and moves upward to the Application Layer.
+- Focus is on **network design, hardware, and data transmission**.
+- Helps understand how signals, frames, and packets move up towards the user.
+- Example: Studying how electrical signals in cables are converted into meaningful data for applications.
+
+---
+
+## Key Difference:
+- **Top-Down:** From user/application → to hardware (service-oriented view).  
+- **Bottom-Up:** From hardware/physical → to user/application (implementation-oriented view).
