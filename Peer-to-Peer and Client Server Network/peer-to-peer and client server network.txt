@@ -1,0 +1,27 @@
+# Peer-to-Peer vs Client-Server Network
+
+## Peer-to-Peer (P2P) Network:
+- No central server; all computers are equal (peers).
+- Each peer can act as both client and server.
+- Easy to set up, low cost.
+- Difficult to manage and less secure.
+- Example: Torrent (BitTorrent), small office/lab sharing.
+
+## Client-Server Network:
+- One central server provides resources/services.
+- Clients request data/services from the server.
+- More secure and easier to manage.
+- Higher cost and requires professional setup.
+- Example: Web servers, Banking systems, Email servers.
+
+---
+
+## Key Differences:
+
+| Aspect              | Peer-to-Peer (P2P)               | Client-Server                 |
+|---------------------|----------------------------------|-------------------------------|
+| Control             | No central control              | Centralized control (server)  |
+| Cost                | Low                             | High                          |
+| Security            | Weak                            | Strong                        |
+| Setup               | Easy                            | Complex                       |
+| Example             | Torrent, File Sharing           | Banking, Websites, Emails     |
