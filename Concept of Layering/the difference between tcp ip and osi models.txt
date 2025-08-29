@@ -1,0 +1,18 @@
+# Difference Between OSI and TCP/IP Models
+
+| Aspect                | OSI Model (Open Systems Interconnection)             | TCP/IP Model (Transmission Control Protocol/Internet Protocol) |
+|------------------------|-----------------------------------------------------|---------------------------------------------------------------|
+| **Full Form**         | Open Systems Interconnection                        | Transmission Control Protocol / Internet Protocol             |
+| **Developed By**      | ISO (International Standards Organization)          | DARPA (Defense Advanced Research Projects Agency, USA)        |
+| **Layers**            | 7 layers (Application, Presentation, Session, Transport, Network, Data Link, Physical) | 4 layers (Application, Transport, Internet, Network Access)   |
+| **Concept**           | Theoretical model, used for understanding and standardization | Practical model, used in real-world networking (Internet)     |
+| **Reliability**       | Provides reliable guidelines but not implemented directly | Provides reliable communication (TCP) and fast communication (UDP) |
+| **Protocol Dependency** | Protocol independent (general framework)           | Protocol specific (works with TCP, IP, UDP, etc.)             |
+| **Usage**             | Used for teaching, reference, and conceptual clarity | Used in actual Internet communication                        |
+
+---
+
+## Key Points:
+- **OSI = Conceptual model (7 layers)**
+- **TCP/IP = Practical model (4 layers, real-world use)**
+- Internet today works mainly on the **TCP/IP model**.
