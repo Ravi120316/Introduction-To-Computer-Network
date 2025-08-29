@@ -1,0 +1,54 @@
+# Connection-Oriented vs Connectionless Transfer
+
+## 1. Connection-Oriented Transfer
+- A communication method where a connection is established between sender and receiver before actual data is transmitted.
+- Ensures reliable delivery of data with error checking and acknowledgement.
+- Example Protocol: **TCP (Transmission Control Protocol)**
+
+### Features:
+- Establishes a virtual connection before data transfer (like a phone call).
+- Data is delivered in sequence (no missing/reordering).
+- Error detection and correction is performed.
+- Acknowledgement is received for every packet.
+- Slower compared to connectionless, but highly reliable.
+
+### Real-life Examples:
+- Web browsing (HTTP over TCP)
+- File transfer (FTP)
+- Emails (SMTP)
+
+---
+
+## 2. Connectionless Transfer
+- A communication method where data is sent directly without establishing any prior connection.
+- Does not guarantee delivery, order, or error correction.
+- Example Protocol: **UDP (User Datagram Protocol)**
+
+### Features:
+- No connection setup required (like sending a letter without confirmation).
+- Faster transmission, but less reliable.
+- Packets may arrive out of order, be duplicated, or lost.
+- Suitable for real-time applications.
+
+### Real-life Examples:
+- Video streaming (YouTube, Netflix)
+- Online gaming
+- VoIP (Voice over IP)
+
+---
+
+## 3. Key Differences (Table Format)
+
+| Feature                  | Connection-Oriented (TCP)             | Connectionless (UDP)           |
+|---------------------------|---------------------------------------|--------------------------------|
+| **Connection Setup**     | Required before data transfer          | Not required                   |
+| **Reliability**          | Reliable (error checking + ACKs)       | Unreliable (no ACKs)           |
+| **Order of Delivery**    | Maintained (in-sequence delivery)      | Not guaranteed                 |
+| **Speed**                | Slower due to overhead                 | Faster (low overhead)          |
+| **Use Cases**            | File transfer, emails, web browsing    | Streaming, gaming, voice calls |
+
+---
+
+## Key Point to Remember:
+- **TCP = Connection-Oriented (reliable, but slower)**  
+- **UDP = Connectionless (fast, but less reliable)**  
